@@ -273,6 +273,18 @@ button.close {
   }
 }
 
+.info-screenshot {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 1em;
+  border-radius: 6px;
+  padding: .5em;
+  @include shadow(1);
+  background: rgba(255, 255, 255, 0.7);
+  transition: .5s;
+}
+
 .sidebar h2, .sidebar h3 {
   padding-left: $buttondistance;
   padding-right: $buttondistance;
